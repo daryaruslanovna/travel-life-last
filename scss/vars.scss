@@ -1,0 +1,33 @@
+// Container
+$conteinerWidth: 1110 + px;
+$containerPadding: 10 + px;
+
+// Breakpoints
+$breakpoint1440: 1440 + px;
+$breakpoint1400: 1400 + px;
+$breakpoint1200: 1200 + px;
+$breakpoint1024: 1024 + px;
+$breakpoint992: 992 + px;
+$breakpoint768: 768 + px;
+$breakpoint576: 576 + px;
+$breakpoint480: 480 + px;
+$breakpoint375: 375 + px;
+
+// Colors
+$basicLight-color: #F1F8EC;
+$basicDark-color: #324840;
+$shadow: #00000040;
+$logo:#011785;
+$background-mobi: #416d7c;
+$text-mobi:#c6e1dc94;
+
+// Fonts
+$font-jost: 'Jost';
+$font-inter: 'Inter';
+
+// Burger
+$burgerBreakpoint: $breakpoint1024;
+
+// Transitions
+$quickTransition: all 120ms ease-out;
+

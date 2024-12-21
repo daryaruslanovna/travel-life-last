@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #EDD6BD;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+body .UPS {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  align-items: center;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
+}
+body .UPS h1 {
+  font-family: "Inter";
+  font-size: 128px;
+  font-weight: 500;
+  color: #324840;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+body .UPS img {
+  position: relative;
+  transform: none;
+  animation: 6s linear 0s normal none infinite running rot;
+  -webkit-animation: 6s linear 0s normal none infinite running rot;
+}
+body .error {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, min-content);
+  text-align: center;
+}
+body .error h1 {
+  font-family: "Jost";
+  font-size: 80px;
+  font-weight: 400;
+  color: #324840;
+}
+body .error p {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  color: #324840;
+}
+body .error .glow-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #324840 inset, 0 0 0 0 #324840;
+  font-family: "Jost";
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #EDD6BD;
+  transition: 0.15s ease-in-out;
+}
+body .error .glow-button:hover {
+  box-shadow: 0 0 10px 0 #324840 inset, 0 0 10px 4px #324840;
+  color: #324840;
+}/*# sourceMappingURL=404.css.map */
